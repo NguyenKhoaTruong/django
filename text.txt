@@ -1,2 +1,4 @@
 kiểm tra các vấn đề lỗi khi deploy:
 python  manage.py check --deploy
+Add models, add api,api with params.
+depoy to production

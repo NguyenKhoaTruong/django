@@ -5,3 +5,6 @@ class ProductSerializer(serializers.ModelSerializer):
     class Meta():
         model = Product
         fields = "__all__"
+    # class Second():
+    #     model = Cluster
+    #     fields = "__all__"

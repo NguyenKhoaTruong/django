@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import os
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 # STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
@@ -35,7 +34,7 @@ DEBUG=True
 #     DEBUG == False
 # else:
 #     DEBUG == True
-ALLOWED_HOSTS = ["127.0.0.1", "localhost", "vlcmnm99.pythonanywhere.com"]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -47,7 +46,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'app',                          # Django App 
+    'app',
+    'django_rest_swagger',# Django App 
     'rest_framework_swagger',       # Swagger 
     'rest_framework',               # Django rest framework
     'drf_yasg'                      # Yet Another Swagger generator
